@@ -79,7 +79,7 @@ transform: scale(0.9);
 
 @media (max-width: 480px) {
     .main-div {
-        width: 95%;
+        width: 75%;
         margin: 10px auto;
     }
 
@@ -88,14 +88,14 @@ transform: scale(0.9);
     }
 
     .input-div input {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .btn-div button {
         height: 45px;
         width: 45px;
-        font-size: 14px;
-        margin-left: 13px;
+        font-size: 20px;
+        margin-left: 18px;
 
     }
 
