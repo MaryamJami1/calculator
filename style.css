@@ -1,0 +1,110 @@
+*{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(13, 3, 57);
+}
+
+.main-div{
+    height: 530px;
+    width: 25%;
+    background-color: aliceblue;
+    border-radius: 10px;
+  padding: 15px;
+  margin-left: 35%;
+  margin-top: 22px;
+  box-shadow: 10px 8px 10px rgba(113, 115, 119, 0.5);
+  background: linear-gradient(0deg, #71a1e4, rgb(245, 247, 249));
+}
+
+.input-div{
+height: 140px;
+width: 100%;
+background-color: rgba(222, 217, 217, 0.175);
+border-radius: 5px;
+box-shadow: 3px 3px 18px gray;
+border-radius: 8px;
+}
+
+.input-div input{
+height: 140px;
+width: 100%;
+border: none;
+outline: none;
+background-color: rgba(222, 217, 217, 0.175);
+border-radius: 5px;
+font-size: 40px;
+}
+
+
+.btn-div{
+    height: 380px;
+    width: 100%;
+margin-top: 20px;
+}
+
+
+.btn-div button{
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px gray;
+    background-color: rgba(222, 217, 217, 0.175);
+    cursor: pointer;
+    margin: 6.9px;
+    font-weight: 600;
+}
+
+
+.btn-div button:hover{
+transform: scale(0.9);
+}
+
+#merge{
+    height: 50px;
+    width: 139px;
+    border-radius: 40px;
+}
+
+#operator{
+    color: rgb(235, 18, 90);
+    font-weight: bolder;
+}
+
+
+
+
+@media (max-width: 480px) {
+    .main-div {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .input-div {
+        margin-bottom: 15px;
+    }
+
+    .input-div input {
+        font-size: 14px;
+    }
+
+    .btn-div button {
+        height: 45px;
+        width: 45px;
+        font-size: 14px;
+        margin-left: 13px;
+
+    }
+
+    
+#merge{
+    height: 50px;
+    width: 110px;
+    border-radius: 40px;
+}
+
+}
