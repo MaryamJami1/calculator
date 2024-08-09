@@ -77,7 +77,7 @@ transform: scale(0.9);
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .main-div {
         height: 430px;
         width: 85%;
