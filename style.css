@@ -79,9 +79,10 @@ transform: scale(0.9);
 
 @media (max-width: 420px) {
     .main-div {
-        height: 510px;
+        
+        height: 520px;
         width: 85%;
-        margin: 15px auto;
+        margin: 30px auto;
     }
 
     .input-div {
